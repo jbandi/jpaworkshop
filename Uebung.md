@@ -1,10 +1,10 @@
 #Übungen zum Workshop  “Objektrelationales Mapping mit JPA 2.0”
 
 Die Übungen sind in folgendem GitHub Repository abgelegt:
-
+`https://github.com/jbandi/jpaworkshop`
 
 Klonen sie das Repository:  
-`git clone `
+`git clone https://github.com/jbandi/jpaworkshop.git`
 
 
 ##Allgemeines
@@ -21,11 +21,11 @@ Die Übungen arbeiten mit dem folgenden Objekt-Modell. Es werden jeweils Ausschn
 - Als DB wird H2 verwendet.
 - Alle Tests verwenden per default H2 als in-memory Datenbank
 - Um H2 im server-modus zu verwendet sind folgende Schritte nötig:
-    - 	Führen Sie das Skript start_h2_database.sh aus
-    - Nun kann über die H2 Console im Browser auf die DB zugegriffen werden (im Login-Dialog die JDBC-URL jdbc:h2:~/jpaworkshop und kein Passwort eingeben)
-    - Konfigurieren Sie im persistence.xml der entsprechenden Übung das Property javax.persistence.jdbc.url auf den Wert jdbc:h2:tcp://localhost/~/jpaworkshop
-    - Im persistence.xml sollte der Wert des Proerties `javax.persistence.schema-generation.database.action` von drop-and-create auf create geändert werden.
-- Die DB-Queries können auf die Konsole geloggt werden indem sie in persistence.xml das Property <property name="hibernate.show_sql" value="true"/> setzen.
+    - Führen Sie das Skript `start_h2_database.sh` aus
+    - Nun kann über die H2 Console im Browser auf die DB zugegriffen werden (im Login-Dialog die JDBC-URL `jdbc:h2:~/jpaworkshop` und kein Passwort eingeben)
+    - Konfigurieren Sie im persistence.xml der entsprechenden Übung das Property `javax.persistence.jdbc.url` auf den Wert `jdbc:h2:tcp://localhost/~/jpaworkshop`
+    - Im persistence.xml sollte der Wert des Proerties `javax.persistence.schema-generation.database.action` von ``drop-and-create` auf `create` geändert werden.
+- Die DB-Queries können auf die Konsole geloggt werden indem sie in `persistence.xml` das Property `<property name="hibernate.show_sql" value="true"/>` setzen.
 - Übung 10 zeigt ausserdem wie mit log4jdbc geloggt werden kann.
 
 ##01-Simple Mapping
