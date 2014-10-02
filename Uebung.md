@@ -1,4 +1,4 @@
-#Übungen zum Workshop  “Objektrelationales Mapping mit JPA 2.0”
+#Übungen zum Workshop  “Objektrelationales Mapping mit JPA”
 
 Die Übungen sind in folgendem GitHub Repository abgelegt:
 `https://github.com/jbandi/jpaworkshop`
