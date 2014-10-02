@@ -63,7 +63,7 @@ public class EmployeeTest {
             em.getTransaction().begin();
 
             Employee emp = new Employee();
-            emp.setName("Simon Martinelli");
+            emp.setName("John Doe");
             emp.setSalary(80000);
             em.persist(emp);
 
