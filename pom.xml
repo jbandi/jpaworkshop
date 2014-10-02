@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>JPA Workshop Exercise</name>
-    <url>http://code.google.com/p/jpaworkshop/</url>
+    <url>https://github.com/jbandi/jpaworkshop</url>
     <developers>
         <developer>
             <name>Jonas Bandi</name>
