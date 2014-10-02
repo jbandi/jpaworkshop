@@ -15,17 +15,17 @@ public class Department {
 	@Id
 	@GeneratedValue
 	private Integer id;
-	private String name2;
+	private String name;
 
 	@OneToMany(cascade = { CascadeType.PERSIST, CascadeType.REFRESH })
 	private Set<Employee> employees = new HashSet<Employee>();
 
 	public String getName() {
-		return name2;
+		return name;
 	}
 
 	public void setName(String name) {
-		this.name2 = name;
+		this.name = name;
 	}
 
 	public Set<Employee> getEmployees() {
