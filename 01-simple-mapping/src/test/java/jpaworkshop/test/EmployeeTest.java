@@ -94,7 +94,7 @@ public class EmployeeTest {
 
     @Test
     public void insertEmployee() throws Exception {
-        logger.info("insertEmployee");
+        logger.info("Begin insertEmployee");
 
         em.getTransaction().begin();
 
@@ -117,6 +117,8 @@ public class EmployeeTest {
         em.getTransaction().begin();
         em.remove(emp);
         em.getTransaction().commit();
+
+        logger.info("End insertEmployee");
     }
 
     @Test
